@@ -1,0 +1,57 @@
+.registration-detail{
+    width: 100%;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFBE6;
+
+
+}
+.registration{
+    
+    width: 400px;
+    margin: 50px;
+    height: 550px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 80px 10px 80px 10px  ;
+    text-align: center;
+    background-color: #F7B5CA;
+}
+hr{
+    width: 180px;
+    
+}
+.registration h3{
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(18, 160, 160, 0.947);
+}
+.Rj-detail input{
+    height: 40px;
+    width: 300px;
+    margin: 15px;
+    outline: none;
+    border-radius: 20px ;
+    padding-left: 15px;
+    border: 2px solid  gray; 
+}
+.Rj-detail button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: orangered;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.policy{
+    font-size: 10px;
+    margin:10px;
+}
+#policy1{
+    margin: 3px 0 0 5px;
+}
+.singin-account{
+    margin: 20px;
+}

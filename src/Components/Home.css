@@ -1,0 +1,72 @@
+.contant{
+    background: url("../Components/Image/firstimg.jpg") no-repeat;
+    background-size: 100% 100%;
+    padding: 130px;
+
+}
+.contant h4{
+    font-size: 40px;
+    color: rgba(215, 153, 39, 0.897);
+}
+.contant h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.contant span{
+    color: rgb(20, 178, 240);
+    font-size: 40px;
+
+}
+.contant p{
+    width:750px;
+    height: 200px;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgba(250, 249, 252, 0.313);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 450;
+}
+.btn{
+    margin-top:20px;    
+    color: #fff;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 750 ;
+    border: none;
+    background-color: rgba(245, 69, 4, 0.993);
+}
+.second-container{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 35px ;
+
+}
+.second1{
+    background-color: rgba(170, 238, 238, 0.535);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 180px;
+    padding-top: 20px;
+    transition: transform 0.45s;
+    
+}
+.second1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 5px #7695FF;
+}
+
+.second1 p{
+    text-align: center;
+}
+.second1 i{
+    font-size: 30px;
+}

@@ -1,0 +1,90 @@
+.types-ofcourses{
+    width: 100%;
+    background-color: #F5F7F8;
+}
+.types-ofcourses h1{
+    text-align: center;
+    margin: 30px;
+}
+.types-ofcourses h1{
+    color: orangered;
+}
+.coursess{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.courses{
+    width: 250px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition: transform 0.45s;
+}
+.courses:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 5px #7695FF;
+}
+.courses img{
+    width: 100%;  
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+}
+.courses p{
+    margin: 5px;
+    color: rgba(7, 100, 137, 0.957);
+}
+
+
+.star i{
+    color: goldenrod;
+   
+}
+.rupee{
+    margin: 10px;
+}
+
+.popular{
+    width: 100%;
+}
+.popular h1{
+    text-align: center;
+    margin: 30px;
+}
+.popular-course{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;   
+}
+.popular h1{
+    color: orangered;
+}
+.popular-courses{
+    width: 250px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px 5px gray ;
+    transition: transform 0.45s;
+    
+
+}
+.popular-courses:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 5px #7695FF;
+}
+.popular-courses img{
+    width: 248px;
+    height: 150px;
+    border-radius: 10px;
+}
+.popular-courses p{
+    color: rgba(7, 100, 137, 0.957);
+    margin: 5px;
+
+}

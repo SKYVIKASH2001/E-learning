@@ -1,0 +1,71 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
+}
+.about-img{
+    width: 30%;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.45s;
+}
+.about-img img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 5px #3C3D37;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+}
+.about-text h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-text p{
+    text-align: justify;
+    font-size: 15px;
+}
+.about-skill{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 20px;
+}
+.first-skill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill-set{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.second-skill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btnblue{
+    width: 125px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(40, 206, 206);
+    border: none;
+    color: white;
+}

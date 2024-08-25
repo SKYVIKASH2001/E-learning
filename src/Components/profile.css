@@ -1,0 +1,169 @@
+.personal-profile-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   background-color: #F5F7F8;
+    margin: 20px 10%;
+}
+.profile-logoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+    
+
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+.name-detail{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ width: 100%;
+ height: 80px;
+border: 2px solid darkblue;
+border-radius:10px;
+background-color: #9DBDFF;
+}
+.name-detail:hover{
+    background-color: antiquewhite;
+}
+.name-detail div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.name-detail div span{
+    font-size: 18px;
+    font-style: italic;
+}
+.name-detail div input{
+     width:250px;
+     height: 35px;
+     border-radius: 10px;
+     padding-left: 10px;
+     font-size: 18px;
+}
+.date-gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 80px;
+   border: 2px solid darkblue;
+   border-radius:10px;
+   background-color: #9DBDFF;
+}
+.date-gender:hover{
+    background-color: antiquewhite;
+}
+.date-gender div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.date-gender span{
+    font-size: 18px;
+    font-style: italic;
+}
+.date-gender input{
+    width:250px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.all-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 80px;
+   border: 2px solid darkblue;
+   border-radius:10px;
+   background-color: #9DBDFF;
+}
+.all-number:hover{
+    background-color: antiquewhite;
+}
+.all-number div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.all-number span{
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px;
+}
+.all-number input{
+    width:250px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+.name-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 80px;
+   border: 2px solid darkblue;
+   border-radius:10px;
+   background-color: #9DBDFF;
+}
+.name-details:hover{
+    background-color: antiquewhite;
+}
+
+.name-details span{
+    font-size: 18px;
+    font-style: italic;
+}
+.name-details input{
+    width:250px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+.personal-detail-submit-button{
+   width: 150px;
+   height: 50px;
+   background-color: orangered;
+   color: white;
+   font-size: 18px;
+   border-radius: 10px;
+   border: none;
+   margin: 10px 500px;
+}
